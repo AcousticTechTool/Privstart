@@ -6,10 +6,7 @@ $file  = Read-Host "Datei inkl. Pfad"
 
 $url = "https://api.github.com/repos/$user/$repo/contents/$file" + "?ref=main"
 
-Write-Host ""
-Write-Host "Verwendeter GitHub Link:"
-Write-Host $url
-Write-Host ""
+
 
 irm $url -Headers @{
     Authorization = "Bearer $token"
