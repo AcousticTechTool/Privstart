@@ -15,6 +15,5 @@ irm $url -Headers @{
 
 
 
-Write-Host $url
 
 Read-Host "Drücke Enter zum Fortfahren"
