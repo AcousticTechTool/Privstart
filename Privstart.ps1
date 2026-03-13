@@ -1,3 +1,4 @@
+Clear-Host
 $token = Read-Host "GitHub Token"
 $user  = Read-Host "GitHub Username"
 $repo  = Read-Host "Repository"
@@ -19,4 +20,4 @@ irm $url -Headers @{
 
 Write-Host $url
 
-Read-Host "Drücke Enter zum Fortfahren"
+Read-Host "DrÃ¼cke Enter zum Fortfahren"
